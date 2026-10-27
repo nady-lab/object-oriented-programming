@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 2
+ * */
 package lab2;
 
 public class LibraryMember {

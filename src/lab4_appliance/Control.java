@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4_appliance
+ * */
 package lab4_appliance;
 
 public class Control {

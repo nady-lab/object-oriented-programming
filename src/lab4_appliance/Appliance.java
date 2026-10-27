@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4_appliance
+ * */
 package lab4_appliance;
 
 public class Appliance {
@@ -36,11 +41,11 @@ public class Appliance {
 		this.capacityKg = capacityKg;
 	}
 
-	// constructor that calls the setters
+	// constructor
 	public Appliance(String brand, String model, double capacityKg) {
-		this.brand = brand;
-		this.model = model;
-		this.capacityKg = capacityKg;
+		setBrand(brand);
+		setModel(model);
+		setCapacityKg(capacityKg);
 	}
 
 	// toString() using the getters

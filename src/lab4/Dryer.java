@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4
+ * */
 package lab4;
 
 public class Dryer {
@@ -24,7 +29,7 @@ public class Dryer {
 	
 		// special requirements needed to retrieve brand
 	public void setBrand(String brand) {
-		if(brand == null || brand == "") {
+		if(brand == null || brand.isEmpty()) {
 			System.out.println("ERROR - Brand can't be null");
 		} else {
 			this.brand = brand;

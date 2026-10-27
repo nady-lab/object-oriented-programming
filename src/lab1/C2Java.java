@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 1
+ * */
 package lab1;
 
 public class C2Java {

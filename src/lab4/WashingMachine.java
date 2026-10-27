@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4
+ * */
 package lab4;
 
 public class WashingMachine {
@@ -25,7 +30,7 @@ public class WashingMachine {
 	// special requirements needed to retrieve brand
 	public void setBrand(String brand) {
 		String newBrand = brand.trim();
-		if(brand == null || newBrand == "") {
+		if(brand == null || newBrand.isEmpty()) {
 			System.out.println("ERROR - Brand can't be null");
 		} else {
 			this.brand = brand;
@@ -56,7 +61,7 @@ public class WashingMachine {
 		this.powerWatts = powerWatts;
 	}
 	
-	// constructor that receives all four values and calls the setters
+	// constructor that receives all four values
 	public WashingMachine(String brand, String model, double capacityKg, int powerWatts) {
 		this.brand = brand;
 		this.model = model;
@@ -67,7 +72,7 @@ public class WashingMachine {
 	// toString using all four getters
 	@Override
 	public String toString() {
-		return "WashineMachine [brand=" + getBrand() + ", model=" + getModel() + ", capacityKg=" + getCapacityKg() + ", powerWatts=" + getPowerWatts() + "]";
+		return "Washine Machine [brand=" + getBrand() + ", model=" + getModel() + ", capacityKg=" + getCapacityKg() + ", powerWatts=" + getPowerWatts() + "]";
 	}
 	
 }

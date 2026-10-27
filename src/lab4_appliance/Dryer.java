@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4_appliance
+ * */
 package lab4_appliance;
 
 public class Dryer extends Appliance {
@@ -26,7 +31,7 @@ public class Dryer extends Appliance {
 	// constructor
 	public Dryer(String brand, String model, double capacityKg, boolean sensorDry) {
 		super(brand, model, capacityKg); 
-		this.sensorDry = sensorDry;
+		setSensorDry(sensorDry);
 	}
 		
 	// toString using all four getters

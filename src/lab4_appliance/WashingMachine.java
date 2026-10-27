@@ -1,3 +1,8 @@
+/*
+ * Nadyla da Cunha Barbosa
+ * OOP - CMPU2016
+ * lab 4_appliance
+ * */
 package lab4_appliance;
 
 public class WashingMachine extends Appliance {
@@ -23,10 +28,10 @@ public class WashingMachine extends Appliance {
 		this.powerWatts = powerWatts;
 	}
 	
-	// constructor that receives all four values and calls the setters
+	// constructor that receives all four values
 	public WashingMachine(String brand, String model, double capacityKg, int powerWatts) {
 		super(brand, model, capacityKg);
-		this.powerWatts = powerWatts;
+		setPowerWatts(powerWatts);
 	}
 
 	// toString using all four getters
