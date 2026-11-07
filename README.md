@@ -29,4 +29,4 @@ Java 21, Eclipse IDE
 
 ## <img src="assets/heart.png" width="24" alt=""> credits
 
-feel free to use or learn from any of this code. if you do, a link back to this repo or a mention of [@nady-lab](https://github.com/nady-lab) would be really appreciated 
+feel free to use or learn from any of this code. if you do, a link back to this repo or a mention of [@nady-lab](https://github.com/nady-lab) would be really appreciated!
